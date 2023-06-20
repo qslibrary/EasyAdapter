@@ -389,4 +389,11 @@ public abstract class BaseEasyAdapter<E> extends RecyclerView.Adapter<EasyHolder
         return this;
     }
 
+    public OnItemClickListener getOnItemClickListener() {
+        return onItemClickListener;
+    }
+
+    public OnItemLongClickListener getOnItemLongClickListener() {
+        return onItemLongClickListener;
+    }
 }
